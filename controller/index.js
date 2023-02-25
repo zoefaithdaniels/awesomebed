@@ -13,7 +13,7 @@ const user = new User();
 // Product instance
 const product = new Product();
 // ^/$|/jtbookstore
-route.get('^/$|/awesomebed', (req, res)=>{
+route.get('^/$|/awesomeBed', (req, res)=>{
     res.status(200).sendFile(path.join(__dirname, '../view/index.html'));
 })
 // =========USER's Router========
